@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abc Fruits &amp; Juice Corner</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,600&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Cursor glow element -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="header-grain"></div>
+    <div class="arc arc-1"></div>
+    <div class="arc arc-2"></div>
+    <div class="arc arc-3"></div>
+
+    <div class="header-content">
+      <div class="overline-row">
+        <span class="overline-line"></span>
+        <span class="overline-text">Est. Since Day One</span>
+        <span class="overline-line"></span>
+      </div>
+
+      <h1 class="shop-name">
+        <span class="name-top">Abc Fruits</span>
+        <span class="name-amp">&amp;</span>
+        <span class="name-bottom">Juice Corner</span>
+      </h1>
+
+      <div class="tagline-wrap">
+        <span class="tagline-dot"></span>
+        <p class="tagline">Freshness in Every Sip</p>
+        <span class="tagline-dot"></span>
+      </div>
+
+      <p class="header-sub">Handcrafted &nbsp;·&nbsp; Premium &nbsp;·&nbsp; Pure</p>
+
+      <div class="scroll-hint">
+        <span class="scroll-line"></span>
+        <span class="scroll-text">Explore</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== MARQUEE BAND ===== -->
+  <div class="marquee-band" aria-hidden="true">
+    <div class="marquee-track">
+      <span>🍊 Fresh Fruits</span><span class="mdot">✦</span>
+      <span>🥛 Premium Milkshakes</span><span class="mdot">✦</span>
+      <span>☕ Cold Coffee</span><span class="mdot">✦</span>
+      <span>🍦 Ice Cream</span><span class="mdot">✦</span>
+      <span>🌰 Nuts &amp; Dates</span><span class="mdot">✦</span>
+      <span>🍫 Chocolate Bliss</span><span class="mdot">✦</span>
+      <!-- duplicate for seamless loop -->
+      <span>🍊 Fresh Fruits</span><span class="mdot">✦</span>
+      <span>🥛 Premium Milkshakes</span><span class="mdot">✦</span>
+      <span>☕ Cold Coffee</span><span class="mdot">✦</span>
+      <span>🍦 Ice Cream</span><span class="mdot">✦</span>
+      <span>🌰 Nuts &amp; Dates</span><span class="mdot">✦</span>
+      <span>🍫 Chocolate Bliss</span><span class="mdot">✦</span>
+    </div>
+  </div>
+
+  <!-- ===== INTRO ===== -->
+  <section class="intro">
+    <div class="intro-inner">
+      <span class="section-label">Our Philosophy</span>
+      <h2 class="section-heading">Nature's Finest,<br /><em>Crafted for You</em></h2>
+      <p>Every glass, every bowl, every scoop — prepared with zero compromise. We source seasonal produce daily and blend it the moment you order.</p>
+    </div>
+  </section>
+
+  <!-- ===== MENU ===== -->
+  <section class="menu">
+    <div class="menu-header">
+      <span class="section-label">The Menu</span>
+      <h2 class="section-heading">Signature <em>Offerings</em></h2>
+    </div>
+
+    <div class="menu-grid">
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?w=700&auto=format&fit=crop&q=85" alt="Fresh Fruits" loading="lazy" />
+          <div class="card-overlay"></div>
+          <div class="card-number">01</div>
+        </div>
+        <div class="card-body">
+          <div class="card-top">
+            <h3>Fresh Fruits</h3>
+            <span class="card-chip">Seasonal</span>
+          </div>
+          <p>Hand-picked daily selections of tropical and seasonal fruits, full of vitamins and natural sweetness.</p>
+          <div class="card-footer-row">
+            <span class="card-tag">🍎 Farm Fresh</span>
+            <span class="card-arrow">→</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1599599810769-bcde5a160d32?w=700&auto=format&fit=crop&q=85" alt="Dry Mixed Nuts and Dates" loading="lazy" />
+          <div class="card-overlay"></div>
+          <div class="card-number">02</div>
+        </div>
+        <div class="card-body">
+          <div class="card-top">
+            <h3>Dry Mixed Nuts &amp; Dates</h3>
+            <span class="card-chip">Premium</span>
+          </div>
+          <p>Finest almonds, cashews, walnuts, and Medjool dates — a powerhouse of nutrients and indulgence.</p>
+          <div class="card-footer-row">
+            <span class="card-tag">🌰 Energy Boost</span>
+            <span class="card-arrow">→</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card card--featured">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=700&auto=format&fit=crop&q=85" alt="Oreo Milkshake" loading="lazy" />
+          <div class="card-overlay"></div>
+          <div class="card-number">03</div>
+        </div>
+        <div class="card-body">
+          <div class="card-top">
+            <h3>Oreo Milkshake</h3>
+            <span class="card-chip chip--gold">Fan Favourite</span>
+          </div>
+          <p>Thick, velvety milkshake blended with classic Oreo cookies, crowned with whipped cream perfection.</p>
+          <div class="card-footer-row">
+            <span class="card-tag">🍪 Cookies &amp; Cream</span>
+            <span class="card-arrow">→</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=700&auto=format&fit=crop&q=85" alt="KitKat Milkshake" loading="lazy" />
+          <div class="card-overlay"></div>
+          <div class="card-number">04</div>
+        </div>
+        <div class="card-body">
+          <div class="card-top">
+            <h3>KitKat Milkshake</h3>
+            <span class="card-chip">Indulgent</span>
+          </div>
+          <p>Rich chocolate shake loaded with KitKat shards — a break worth savouring, served in a glass.</p>
+          <div class="card-footer-row">
+            <span class="card-tag">🍫 Choco Bliss</span>
+            <span class="card-arrow">→</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1541658016709-82535e94bc69?w=700&auto=format&fit=crop&q=85" alt="Chocolate Milkshake" loading="lazy" />
+          <div class="card-overlay"></div>
+          <div class="card-number">05</div>
+        </div>
+        <div class="card-body">
+          <div class="card-top">
+            <h3>Chocolate Milkshake</h3>
+            <span class="card-chip">Classic</span>
+          </div>
+          <p>The timeless classic — deeply chocolatey, silky smooth, and always a crowd-pleaser.</p>
+          <div class="card-footer-row">
+            <span class="card-tag">🥛 All-Time Classic</span>
+            <span class="card-arrow">→</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=700&auto=format&fit=crop&q=85" alt="Banana Milkshake" loading="lazy" />
+          <div class="card-overlay"></div>
+          <div class="card-number">06</div>
+        </div>
+        <div class="card-body">
+          <div class="card-top">
+            <h3>Banana Milkshake</h3>
+            <span class="card-chip">Natural</span>
+          </div>
+          <p>Fresh ripe bananas blended with chilled milk and a whisper of honey — tropical comfort, bottled.</p>
+          <div class="card-footer-row">
+            <span class="card-tag">🍌 Tropical Delight</span>
+            <span class="card-arrow">→</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=700&auto=format&fit=crop&q=85" alt="Cold Coffee" loading="lazy" />
+          <div class="card-overlay"></div>
+          <div class="card-number">07</div>
+        </div>
+        <div class="card-body">
+          <div class="card-top">
+            <h3>Cold Coffee</h3>
+            <span class="card-chip">Refreshing</span>
+          </div>
+          <p>Brewed coffee shaken with chilled milk over ice — bold, smooth, and the perfect afternoon lift.</p>
+          <div class="card-footer-row">
+            <span class="card-tag">☕ Chilled &amp; Bold</span>
+            <span class="card-arrow">→</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=700&auto=format&fit=crop&q=85" alt="Ice Creams" loading="lazy" />
+          <div class="card-overlay"></div>
+          <div class="card-number">08</div>
+        </div>
+        <div class="card-body">
+          <div class="card-top">
+            <h3>Ice Creams</h3>
+            <span class="card-chip">Cool Treat</span>
+          </div>
+          <p>Scoops of premium, slow-churned ice cream in classic and exotic flavours — pure frozen luxury.</p>
+          <div class="card-footer-row">
+            <span class="card-tag">🍦 Sweet Escape</span>
+            <span class="card-arrow">→</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-grain"></div>
+    <div class="footer-inner">
+
+      <div class="footer-top">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="footer-logo-icon">✦</div>
+          <div class="footer-brand-text">
+            <div class="footer-name">Abc Fruits &amp; Juice Corner</div>
+            <div class="footer-tagline">Freshness in Every Sip</div>
+          </div>
+        </div>
+
+        <!-- Contact pills -->
+        <div class="footer-details">
+          <div class="footer-pill">
+            <span class="footer-icon">📞</span>
+            <div class="footer-pill-text">
+              <span class="footer-label">Call Us</span>
+              <span class="footer-value">1234567890</span>
+            </div>
+          </div>
+          <div class="footer-pill">
+            <span class="footer-icon">📍</span>
+            <div class="footer-pill-text">
+              <span class="footer-label">Location</span>
+              <span class="footer-value">Anna Nagar, Chennai – 600 040</span>
+            </div>
+          </div>
+          <div class="footer-pill">
+            <span class="footer-icon">🕗</span>
+            <div class="footer-pill-text">
+              <span class="footer-label">Hours</span>
+              <span class="footer-value">8:00 AM – 10:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-copy">
+        <span>&copy; 2025 Abc Fruits &amp; Juice Corner</span>
+        <span class="footer-copy-dot"></span>
+        <span>Crafted with care</span>
+        <span class="footer-copy-dot"></span>
+        <span>All rights reserved</span>
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+    /* Subtle cursor glow that follows the mouse */
+    const glow = document.getElementById('cursorGlow');
+    document.addEventListener('mousemove', (e) => {
+      glow.style.left = e.clientX + 'px';
+      glow.style.top  = e.clientY + 'px';
+    });
+  </script>
+
+</body>
+</html>
